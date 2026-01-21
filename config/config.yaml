@@ -30,28 +30,16 @@ platforms:
   sources:
     - id: "toutiao"
       name: "今日头条"
-    - id: "baidu"
-      name: "百度热搜"
     - id: "wallstreetcn-hot"
       name: "华尔街见闻"
     - id: "thepaper"
       name: "澎湃新闻"
-    - id: "bilibili-hot-search"
-      name: "bilibili 热搜"
     - id: "cls-hot"
       name: "财联社热门"
     - id: "ifeng"
       name: "凤凰网"
-    - id: "tieba"
-      name: "贴吧"
     - id: "weibo"
       name: "微博"
-    - id: "douyin"
-      name: "抖音"
-    - id: "zhihu"
-      name: "知乎"
-
-
 
 # ===============================================================
 # 3. 数据源 - RSS 订阅
@@ -99,7 +87,18 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
+
+    - id: "huxiu"
+      name: "虎嗅"
+      url: "https://rss.huxiu.com/"
+
+    - id: "ny-times"
+      name: "纽约时报"
+      url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+
+    - id: "cnbc"
+      name: "CNBC"
+      url: "https://www.cnbc.com/id/100003114/device/rss/rss.html"
 
     # 自定义源示例
     # - id: "custom-feed"
